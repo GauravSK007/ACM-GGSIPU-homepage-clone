@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/* style of header */
+
+.header1{
+    width: 100%;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    background-image: url("i690mvdj.png");
+    background-size: cover;
+
+}
+.prize{
+    width: 160px;
+    height: 60px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.prize1{
+    width: 160px;
+    height: 41.013px;
+    background-image: url("5l4yi7x8.png");
+    background-size: cover;
+
+}
+.prize span{
+    color: #005daa;
+    font-size: 18px;
+    font-weight: 700;
+}
+.header-options{
+    width: 80%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+.change {
+    transition: color 0.3s ease; 
+    margin-left: 40px;
+}
+.change:hover{
+    color: #0092cf;
+
+}
+#hash{
+    color: red;
+    margin-left: 40px;
+}
+.welcome-img{
+    position: relative;
+    top: 90px;
+    width: 100%;
+    height: 500px;
+    background-image: url("acm-transformed.png");
+    background-size: cover;
+    
+}
+.welcome-text{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.welcome-text h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    font-size: 48px;
+    border-right: 3px solid white;
+    width: 38ch;
+    white-space: nowrap;
+    overflow:hidden;
+    animation: ani1 5s steps(38), ani2 .5s  infinite alternate ;
+
+}
+
+@keyframes ani1 {
+    0%{
+        width: 0;
+    }
+}
+@keyframes ani2 {
+    50%{
+        border-color: transparent;
+    }
+}
+.middle{
+    width: 100%;
+    height: 628px;
+    position: relative;
+    top: 70px;
+    display: flex;
+}
+.mid-img{
+    background-image: url("a43j5hjv.png");
+    background-size: cover;
+    width: 468px;
+    height: 468px;
+    margin-left:126px ;
+    margin-right:126px ;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.mid-content{
+    width: 672px;
+    height: 612px;
+    /* background-color: pink; */
+    margin-top: 20px;
+    font-size: 56px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.mid-content span{
+    color: #005daa;
+}
+.mid-content p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    font-weight: 100;
+    font-size: 25px;
+    display: block;
+    color: #6c757d;
+}
+.button{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+button{
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    width: 270px;
+    height: 48px;
+    
+    background-color: #005daa;
+    color: white;
+    
+    border-radius: 4px;
+}
+button:hover{
+    background-color: white;
+    border: 2px solid blue;
+    color: #005daa;
+}
+button {
+    transition: color 0.5s ease; 
+    margin-left: 40px;
+}
+.announcements{
+    
+    background-image: url("Celebration-Transparent.png");
+    background-size: contain;
+    width: 100%;
+    height: 800px;
+    /* background-color: pink; */
+    
+
+}
+.atext{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    background-color: rgba(225, 225, 225, .2);  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#an{
+    padding: 5px;
+    background-color: whitesmoke;
+    font-size: 56px;
+    font-weight: 700;
+    border-radius: 6px;
+    /* border: 2px solid black; */
+}
+.abox{
+    width: 832px;
+    height: 637.2px;
+    padding: 16px;
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.2) ;
+    background-color: white;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.acontent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.aimg{
+    background-image: url("rro9g2ch.png");
+
+    border-radius: 15px;
+    background-size: contain;
+    width: 272px;
+    height: 272px;
+}
+.areal{
+    margin-top: 15px;
+    padding: 16px;
+    width: 443.325px;
+    height: 525.2px;
+    background-color: #cbe9ff;
+    border-radius: 15px;
+    color: #5a5a5f;
+}
